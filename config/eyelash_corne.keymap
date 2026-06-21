@@ -84,10 +84,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W             &kp E      &kp R     &kp T                                &kp UP                &kp Y               &kp U        &kp I      &kp O    &kp P      &kp BSPC
-&kp LEFT_SHIFT  &kp A  &mt LEFT_SHIFT S  &kp D      &kp F     &kp G                      &kp LEFT  &kp K_APP  &kp RIGHT  &kp H               &kp J        &kp K      &kp L    &kp SLASH  &none
-&kp LCTRL       &kp Z  &kp X             &kp C      &kp V     &kp B      &lt 4 DELETE              &kp DOWN              &kp N               &kp M        &kp COMMA  &kp DOT  &none      &kp LEFT_GUI
-                                         &lt 3 F13  &lt 1 F2  &lt 2 F14                                                  &mt LEFT_ALT ENTER  &lt 1 SPACE  &lt 2 ESC
+&kp TAB         &kp Q  &kp W             &kp E      &kp R     &kp T                                &kp UP                &kp Y        &kp U        &kp I      &kp O    &kp P      &kp BSPC
+&kp LEFT_SHIFT  &kp A  &mt LEFT_SHIFT S  &kp D      &kp F     &kp G                      &kp LEFT  &kp K_APP  &kp RIGHT  &kp H        &kp J        &kp K      &kp L    &kp SLASH  &kp LEFT_ALT
+&kp LCTRL       &kp Z  &kp X             &kp C      &kp V     &kp B      &lt 4 DELETE              &kp DOWN              &kp N        &kp M        &kp COMMA  &kp DOT  &kp TILDE  &kp LEFT_GUI
+                                         &lt 3 F13  &lt 1 F2  &lt 2 F14                                                  &lt 1 ENTER  &lt 2 SPACE  &lt 3 ESC
             >;
 
             sensor-bindings = <&scroll_encoder>, <&rsr_trans>;
@@ -96,10 +96,10 @@
         lower_layer {
             display-name = "NUMBER,FN";
             bindings = <
-&none  &kp KP_NUMLOCK  &kp F2  &none   &kp F4   &kp F5                                          &kp HOME                     &kp EQUAL  &kp N7  &kp N8        &kp NUMBER_9  &kp BSLH      &kp MINUS
-&none  &none           &kp F6  &kp F9  &kp F10  &kp PRINTSCREEN                &kp LC(PAGE_UP)  &kp F4    &kp LC(PAGE_DOWN)  &kp N0     &kp N4  &kp NUMBER_6  &kp ASTERISK  &kp ASTERISK  &kp PLUS
-&none  &none           &none   &kp F7  &kp F8   &kp INT_HENKAN   &kp C_MUTE                     &kp END                      &kp DOT    &kp N1  &kp N2        &kp N3        &kp COLON     &kp SEMICOLON
-                               &none   &none    &none                                                                        &none      &none   &none
+&trans  &kp KP_NUMLOCK  &kp F2  &none   &kp F4   &kp F5                                          &kp HOME                     &kp EQUAL  &kp N7  &kp N8        &kp NUMBER_9  &kp BSLH      &kp MINUS
+&trans  &none           &kp F6  &kp F9  &kp F10  &kp PRINTSCREEN                &kp LC(PAGE_UP)  &kp F4    &kp LC(PAGE_DOWN)  &kp N0     &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp PLUS
+&trans  &none           &none   &kp F7  &kp F8   &kp INT_HENKAN   &kp C_MUTE                     &kp END                      &kp DOT    &kp N1  &kp N2        &kp N3        &kp COLON     &kp SEMICOLON
+                                &none   &none    &none                                                                        &none      &none   &none
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
