@@ -119,10 +119,10 @@
         layer_3 {
             display-name = "Symbol";
             bindings = <
-&none  &kp F1      &kp F2     &kp F3       &kp F4     &kp F5                                  &none                            &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN     &kp AMPERSAND  &kp SQT
-&none  &none       &mkp LCLK  &mkp MCLK    &mkp RCLK  &mkp MB4                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp DLLR       &kp DOUBLE_QUOTES
-&none  &sys_reset  &none      &bootloader  &none      &mkp MB5  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT     &kp INT3       &none
-                              &none        &none      &none                                                                    &none            &none                 &none
+&none  &none  &kp LS(UP_ARROW)  &kp SPACE    &kp LC(I)  &none                  &none         &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN     &kp AMPERSAND  &kp SQT
+&none  &none  &kp LA(I)         &kp LA(J)    &kp B      &none           &none  &none  &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp DLLR       &kp DOUBLE_QUOTES
+&none  &none  &none             &bootloader  &none      &none  &none           &none         &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT     &kp INT3       &none
+                                &none        &none      &none                                &none            &none                 &none
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
