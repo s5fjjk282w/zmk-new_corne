@@ -44,8 +44,8 @@ layers:
   - '~'
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
-  - {t: F13, h: ALLOW}
-  - {t: F14, h: 'NUMBER,FN'}
+  - {t: F2, h: ALLOW}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:backspace$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
   - {t: '$$mdi:keyboard-space$$', h: Symbol}
@@ -248,6 +248,3 @@ layers:
 combos:
 - p: [1, 15, 29]
   k: '&soft_off'
-- p: [32, 33]
-  k: F2
-  l: [QWERTY]
