@@ -18,12 +18,12 @@ layers:
   - A
   - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
   - D
-  - F
+  - H
   - G
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - APP
   - Sft+Gui+$$mdi:arrow-right-bold$$
-  - H
+  - F
   - J
   - K
   - L
@@ -33,8 +33,8 @@ layers:
   - Z
   - X
   - C
-  - V
   - B
+  - V
   - {t: PRINTSCREEN, h: Bluetooth}
   - F4
   - N
