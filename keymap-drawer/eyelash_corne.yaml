@@ -44,8 +44,8 @@ layers:
   - '~'
   - $$mdi:apple-keyboard-command$$
   - {t: F13, h: Symbol}
-  - {t: F2, h: 'NUMBER,FN'}
-  - {t: F14, h: ALLOW}
+  - {t: F2, h: ALLOW}
+  - {t: F14, h: 'NUMBER,FN'}
   - {t: '$$mdi:keyboard-return$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:keyboard-space$$', h: ALLOW}
   - {t: '$$mdi:keyboard-esc$$', h: Symbol}
@@ -93,8 +93,8 @@ layers:
   - ':'
   - {t: ;, s: ':'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -142,8 +142,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:apple-keyboard-command$$', type: held}
+  - {t: '$$mdi:apple-keyboard-option$$', type: held}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
