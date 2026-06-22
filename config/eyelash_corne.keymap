@@ -99,10 +99,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W             &kp E         &kp R     &kp T                                &kp UP                &kp Y        &kp U        &kp I      &kp O    &kp P      &kp BSPC
-&kp LEFT_SHIFT  &kp A  &mt LEFT_SHIFT S  &kp D         &kp F     &kp G                      &kp LEFT  &kp K_APP  &kp RIGHT  &kp H        &kp J        &kp K      &kp L    &kp SLASH  &kp LEFT_ALT
-&kp LCTRL       &kp Z  &kp X             &kp C         &kp V     &kp B      &lt 4 DELETE              &kp DOWN              &kp N        &kp M        &kp COMMA  &kp DOT  &kp TILDE  &kp LEFT_GUI
-                                         &lt 3 DELETE  &lt 2 F2  &lt 1 F14                                                  &lt 1 SPACE  &lt 2 ENTER  &lt 3 ESC
+&kp TAB         &kp Q  &kp W             &kp E         &kp R     &kp T                                   &kp LG(TAB)                     &kp Y        &kp U        &kp I      &kp O    &kp P      &kp BSPC
+&kp LEFT_SHIFT  &kp A  &mt LEFT_SHIFT S  &kp D         &kp F     &kp G                 &kp LS(LG(LEFT))  &kp K_APP    &kp LS(LG(RIGHT))  &kp H        &kp J        &kp K      &kp L    &kp SLASH  &kp LEFT_ALT
+&kp LCTRL       &kp Z  &kp X             &kp C         &kp V     &kp B     &lt 4 F2                      &none                           &kp N        &kp M        &kp COMMA  &kp DOT  &kp TILDE  &kp LEFT_GUI
+                                         &lt 3 DELETE  &lt 2 F2  &lt 1 F2                                                                &lt 1 SPACE  &lt 2 ENTER  &lt 3 ESC
             >;
 
             sensor-bindings = <&inc_dec_kp F14 F13>, <&rsr_trans>;
@@ -123,10 +123,10 @@
         raise_layer {
             display-name = "ALLOW";
             bindings = <
-&trans  &none  &kp LC(S)  &kp ENTER       &kp LC(F4)       &none                                  &msc SCRL_UP                     &kp LG(TAB)     &kp LA(LEFT)  &kp UP_ARROW  &kp LA(UP_ARROW)  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))
-&trans  &none  &none      &none           &none            &none                  &msc SCRL_LEFT  &none           &msc SCRL_RIGHT  &msc SCRL_UP    &kp LEFT      &kp DOWN      &kp RIGHT         &none             &none
-&trans  &none  &none      &msc SCRL_LEFT  &msc SCRL_RIGHT  &none         &none                    &msc SCRL_DOWN                   &msc SCRL_DOWN  &none         &none         &none             &none             &none
-                          &none           &kp LEFT_ALT     &kp LEFT_GUI                                                            &none           &none         &none
+&trans  &none  &kp LC(S)  &kp ENTER  &kp LC(F4)    &none                                &kp LG(UP_ARROW)                 &kp LG(TAB)     &kp LA(LEFT)    &kp UP_ARROW     &kp LA(UP_ARROW)  &none  &none
+&trans  &none  &none      &none      &none         &none                  &kp LG(LEFT)  &none             &kp LG(RIGHT)  &msc SCRL_UP    &kp LEFT        &kp DOWN         &kp RIGHT         &none  &none
+&trans  &none  &none      &none      &half         &full         &none                  &kp LG(DOWN)                     &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT  &none             &none  &none
+                          &none      &kp LEFT_ALT  &kp LEFT_GUI                                                          &none           &none           &none
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
