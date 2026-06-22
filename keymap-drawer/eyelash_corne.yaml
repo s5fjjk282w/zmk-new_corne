@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-up-bold$$
+  - Gui+$$mdi:keyboard-tab$$
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - Sft+Gui+$$mdi:arrow-left-bold$$
   - APP
-  - $$mdi:arrow-right-bold$$
+  - Sft+Gui+$$mdi:arrow-right-bold$$
   - H
   - J
   - K
@@ -35,8 +35,8 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:backspace-reverse-outline$$', h: Bluetooth}
-  - $$mdi:arrow-down-bold$$
+  - {t: F2, h: Bluetooth}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - N
   - M
   - {t: ',', s: <}
@@ -45,7 +45,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: ALLOW}
-  - {t: F14, h: 'NUMBER,FN'}
+  - {t: F2, h: 'NUMBER,FN'}
   - {t: '$$mdi:keyboard-space$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
   - {t: '$$mdi:keyboard-esc$$', h: Symbol}
@@ -105,22 +105,22 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-up$$
+  - Gui+$$mdi:arrow-up-bold$$
   - Gui+$$mdi:keyboard-tab$$
   - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - Alt+$$mdi:arrow-up-bold$$
-  - Sft+Gui+$$mdi:arrow-left-bold$$
-  - Sft+Gui+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-left$$
+  - Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-right$$
+  - Gui+$$mdi:arrow-right-bold$$
   - $$mdi:pan-up$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -130,14 +130,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - '&half'
+  - '&full'
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+$$mdi:arrow-down-bold$$
+  - $$mdi:pan-down$$
   - $$mdi:pan-left$$
   - $$mdi:pan-right$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:pan-down$$
-  - $$mdi:pan-down$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
