@@ -43,11 +43,11 @@ layers:
   - {t: ., s: '>'}
   - '~'
   - $$mdi:apple-keyboard-command$$
-  - {t: F13, h: Symbol}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: ALLOW}
   - {t: F14, h: 'NUMBER,FN'}
-  - {t: '$$mdi:keyboard-return$$', h: 'NUMBER,FN'}
-  - {t: '$$mdi:keyboard-space$$', h: ALLOW}
+  - {t: '$$mdi:keyboard-space$$', h: 'NUMBER,FN'}
+  - {t: '$$mdi:keyboard-return$$', h: ALLOW}
   - {t: '$$mdi:keyboard-esc$$', h: Symbol}
   NUMBER,FN:
   - {t: '$$mdi:transfer$$', type: trans}
