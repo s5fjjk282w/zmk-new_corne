@@ -61,7 +61,7 @@ layers:
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - '9'
-  - {t: \, s: '|'}
+  - {t: /, s: '?'}
   - {t: '-', s: _}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -90,8 +90,8 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - ':'
   - {t: ;, s: ':'}
+  - ':'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
@@ -106,7 +106,7 @@ layers:
   - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+$$mdi:arrow-up-bold$$
-  - Gui+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - Alt+$$mdi:arrow-up-bold$$
@@ -189,7 +189,7 @@ layers:
   - '>'
   - '%'
   - INT3
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - \
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
