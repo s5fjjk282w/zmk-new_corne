@@ -95,9 +95,9 @@
         lower_layer {
             display-name = "NUMBER,FN";
             bindings = <
-&trans  &kp KP_NUMLOCK  &kp F2  &none   &kp F4   &kp F5                                         &kp HOME                     &kp EQUAL  &kp N7  &kp N8        &kp NUMBER_9  &kp BSLH      &kp MINUS
-&trans  &none           &kp F6  &kp F9  &kp F10  &none                         &kp LC(PAGE_UP)  &kp F4    &kp LC(PAGE_DOWN)  &kp N0     &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp PLUS
-&trans  &none           &none   &kp F7  &kp F8   &kp INT_HENKAN  &kp C_MUTE                     &kp END                      &kp DOT    &kp N1  &kp N2        &kp N3        &kp COLON     &kp SEMICOLON
+&trans  &kp KP_NUMLOCK  &kp F2  &none   &kp F4   &kp F5                                         &kp HOME                     &kp EQUAL  &kp N7  &kp N8        &kp NUMBER_9  &kp SLASH      &kp MINUS
+&trans  &none           &kp F6  &kp F9  &kp F10  &none                         &kp LC(PAGE_UP)  &kp F4    &kp LC(PAGE_DOWN)  &kp N0     &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK   &kp PLUS
+&trans  &none           &none   &kp F7  &kp F8   &kp INT_HENKAN  &kp C_MUTE                     &kp END                      &kp DOT    &kp N1  &kp N2        &kp N3        &kp SEMICOLON  &kp COLON
                                 &none   &none    &none                                                                       &none      &none   &none
             >;
 
@@ -107,7 +107,7 @@
         raise_layer {
             display-name = "ALLOW";
             bindings = <
-&trans  &none  &kp LC(S)  &kp ENTER  &kp LC(F4)  &none                         &kp LG(UP_ARROW)                 &kp LG(TAB)     &kp LA(LEFT)    &kp UP_ARROW     &kp LA(UP_ARROW)  &none  &none
+&trans  &none  &kp LC(S)  &kp ENTER  &kp LC(F4)  &none                         &kp LG(UP_ARROW)                 &none           &kp LA(LEFT)    &kp UP_ARROW     &kp LA(UP_ARROW)  &none  &none
 &trans  &none  &none      &none      &none       &none           &kp LG(LEFT)  &none             &kp LG(RIGHT)  &msc SCRL_UP    &kp LEFT        &kp DOWN         &kp RIGHT         &none  &kp LEFT_ALT
 &trans  &none  &none      &none      &none       &none  &none                  &kp LG(DOWN)                     &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT  &none             &none  &kp LEFT_GUI
                           &none      &none       &none                                                          &none           &none           &none
@@ -121,7 +121,7 @@
             bindings = <
 &none  &none  &kp LS(UP_ARROW)  &kp SPACE    &kp LC(I)  &none                  &none         &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN     &kp AMPERSAND  &kp SQT
 &none  &none  &kp LA(I)         &kp LA(J)    &kp B      &none           &none  &none  &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp DLLR       &kp DOUBLE_QUOTES
-&none  &none  &none             &bootloader  &none      &none  &none           &none         &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT     &kp INT3       &none
+&none  &none  &none             &bootloader  &none      &none  &none           &none         &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT     &kp INT3       &kp NON_US_BACKSLASH
                                 &none        &none      &none                                &none            &none                 &none
             >;
 
