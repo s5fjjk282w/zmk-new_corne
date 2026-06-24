@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - Gui+$$mdi:keyboard-tab$$
+  - HOME
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - H
   - G
-  - Sft+Gui+$$mdi:arrow-left-bold$$
+  - Ctl+PgUp
   - APP
-  - Sft+Gui+$$mdi:arrow-right-bold$$
+  - Ctl+PgDn
   - F
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - B
   - V
   - {t: PRINTSCREEN, h: Bluetooth}
-  - F4
+  - END
   - N
   - M
   - {t: ',', s: <}
@@ -56,7 +56,7 @@ layers:
   - {t: '=', s: +}
   - F4
   - F5
-  - HOME
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '=', s: +}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -69,9 +69,9 @@ layers:
   - F9
   - F10
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+PgUp
-  - F4
-  - Ctl+PgDn
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '0', s: )}
   - {t: '4', s: $}
   - '5'
@@ -85,7 +85,7 @@ layers:
   - F8
   - INTERNATIONAL 4
   - $$mdi:volume-off$$
-  - END
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ., s: '>'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -105,8 +105,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+$$mdi:arrow-up-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+$$mdi:keyboard-tab$$
   - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:arrow-up-bold$$
   - Alt+$$mdi:arrow-up-bold$$
@@ -118,9 +118,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+$$mdi:arrow-left-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-up$$
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -128,13 +128,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Gui+$$mdi:arrow-down-bold$$
   - $$mdi:pan-down$$
   - $$mdi:pan-left$$
   - $$mdi:pan-right$$
