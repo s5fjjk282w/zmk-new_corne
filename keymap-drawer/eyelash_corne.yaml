@@ -27,7 +27,7 @@ layers:
   - J
   - K
   - L
-  - {t: /, s: '?'}
+  - '~'
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -41,7 +41,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - '~'
+  - {t: /, s: '?'}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: ALLOW}
