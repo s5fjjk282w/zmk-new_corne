@@ -102,9 +102,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - Sft+Gui+$$mdi:arrow-right-bold$$
+  - Gui+$$mdi:arrow-up-bold$$
   - Ctl+S
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+$$mdi:keyboard-tab$$
   - Alt+$$mdi:arrow-left-bold$$
@@ -114,10 +114,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Gui+$$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-down-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
+  - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -149,7 +149,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   Symbol:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+E
   - Sft+$$mdi:arrow-up-bold$$
   - $$mdi:keyboard-space$$
   - Ctl+I
@@ -177,11 +177,11 @@ layers:
   - $
   - '"'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+N
+  - Ctl+R
+  - Sft+Ctl+R
+  - Ctl+F
+  - Sft+Ctl+N
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - '#'
