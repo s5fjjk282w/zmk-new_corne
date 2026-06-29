@@ -109,10 +109,10 @@
         raise_layer {
             display-name = "ALLOW";
             bindings = <
-&trans  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp LC(S)  &kp ENTER  &kp LC(F4)                  &none         &kp LG(TAB)     &kp LA(LEFT)  &kp UP_ARROW  &kp LA(UP_ARROW)  &none  &none
-&trans  &kp LEFT_ALT      &none              &none      &none      &none                &none  &none  &none  &msc SCRL_UP    &kp LEFT      &kp DOWN      &kp RIGHT         &none  &kp LEFT_ALT
-&trans  &kp LEFT_GUI      &none              &none      &none      &none       &none           &none         &msc SCRL_DOWN  &kp HOME      &none         &kp END           &none  &kp LEFT_GUI
-                                             &none      &none      &none                                     &none           &none         &none
+&trans  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp LG(UP)    &kp LC(S)      &kp ENTER                   &none         &kp LG(TAB)     &kp LA(LEFT)  &kp UP_ARROW  &kp LA(UP_ARROW)  &none  &none
+&trans  &kp LEFT_ALT      &kp LG(LEFT)       &kp LG(DOWN)  &kp LG(RIGHT)  &kp LC(F4)           &none  &none  &none  &msc SCRL_UP    &kp LEFT      &kp DOWN      &kp RIGHT         &none  &kp LEFT_ALT
+&trans  &kp LEFT_GUI      &none              &none         &none          &none       &none           &none         &msc SCRL_DOWN  &kp HOME      &none         &kp END           &none  &kp LEFT_GUI
+                                             &none         &none          &none                                     &none           &none         &none
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -121,10 +121,10 @@
         layer_3 {
             display-name = "Symbol";
             bindings = <
-&none  &none  &kp LS(UP_ARROW)  &kp SPACE    &kp LC(I)  &none                  &none         &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN     &kp AMPERSAND  &kp SQT
-&none  &none  &kp LA(I)         &kp LA(J)    &kp B      &none           &none  &none  &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp DLLR       &kp DOUBLE_QUOTES
-&none  &none  &none             &bootloader  &none      &none  &none           &none         &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT     &kp INT3       &kp NON_US_BACKSLASH
-                                &none        &none      &none                                &none            &none                 &none
+&none  &kp LC(E)  &kp LS(UP_ARROW)  &kp SPACE      &kp LC(I)  &none                          &none         &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN     &kp AMPERSAND  &kp SQT
+&none  &none      &kp LA(I)         &kp LA(J)      &kp B      &none                   &none  &none  &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp DLLR       &kp DOUBLE_QUOTES
+&none  &kp LC(N)  &kp LC(R)         &kp LS(LC(R))  &kp LC(F)  &kp LS(LC(N))  &none           &none         &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT     &kp INT3       &kp NON_US_BACKSLASH
+                                    &none          &none      &none                                        &none            &none                 &none
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
