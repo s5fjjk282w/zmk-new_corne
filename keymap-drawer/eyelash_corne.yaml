@@ -83,7 +83,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F7
   - F8
-  - INTERNATIONAL 4
+  - F1
   - $$mdi:volume-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: ., s: '>'}
