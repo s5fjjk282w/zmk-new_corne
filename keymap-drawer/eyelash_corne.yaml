@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - HOME
+  - $$mdi:pan-up$$
   - Y
   - U
   - I
@@ -20,9 +20,9 @@ layers:
   - D
   - H
   - G
-  - Ctl+PgUp
+  - $$mdi:pan-left$$
   - APP
-  - Ctl+PgDn
+  - $$mdi:pan-right$$
   - F
   - J
   - K
@@ -36,7 +36,7 @@ layers:
   - B
   - V
   - {t: PRINTSCREEN, h: Bluetooth}
-  - END
+  - $$mdi:pan-down$$
   - N
   - M
   - {t: ',', s: <}
@@ -100,11 +100,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   ALLOW:
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+Gui+$$mdi:arrow-left-bold$$
   - Ctl+S
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Ctl+F4
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Sft+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Gui+$$mdi:keyboard-tab$$
   - Alt+$$mdi:arrow-left-bold$$
@@ -136,9 +136,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-down$$
-  - $$mdi:pan-left$$
-  - $$mdi:pan-right$$
+  - HOME
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
