@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: ALLOW}
   - {t: '$$mdi:apple-keyboard-caps$$', h: 'NUMBER,FN'}
-  - {t: '$$mdi:backspace$$', h: 'NUMBER,FN'}
+  - {t: 'Ctl+$$mdi:backspace$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
   - {t: '$$mdi:keyboard-space$$', h: Symbol}
   NUMBER,FN:
@@ -102,7 +102,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - Sft+Gui+$$mdi:arrow-right-bold$$
-  - Gui+$$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+S
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -114,9 +114,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
-  - Gui+$$mdi:arrow-left-bold$$
-  - Gui+$$mdi:arrow-down-bold$$
-  - Gui+$$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
