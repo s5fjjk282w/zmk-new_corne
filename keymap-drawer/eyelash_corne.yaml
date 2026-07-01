@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -45,7 +45,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: ALLOW}
-  - {t: '$$mdi:keyboard-tab$$', h: 'NUMBER,FN'}
+  - {t: '$$mdi:apple-keyboard-caps$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:backspace$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
   - {t: '$$mdi:keyboard-space$$', h: Symbol}
