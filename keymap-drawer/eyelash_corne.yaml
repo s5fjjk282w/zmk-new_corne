@@ -20,9 +20,9 @@ layers:
   - D
   - H
   - G
-  - {t: 'NUMBER,FN', h: toggle}
-  - {t: QWERTY, h: toggle}
   - {t: ALLOW, h: toggle}
+  - {t: QWERTY, h: toggle}
+  - {t: 'NUMBER,FN', h: toggle}
   - F
   - J
   - K
