@@ -3,8 +3,8 @@ layers:
   QWERTY:
   - $$mdi:keyboard-esc$$
   - Q
-  - W
-  - E
+  - {t: W, h: ALLOW}
+  - {t: E, h: 'NUMBER,FN'}
   - R
   - T
   - {t: Bluetooth, h: toggle}
@@ -16,7 +16,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:keyboard-tab$$
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - S
   - D
   - H
   - G
@@ -47,13 +47,13 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: QWERTY}
   - $$mdi:keyboard-space$$
   NUMBER,FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP NUMLOCK
   - F2
-  - {t: '=', s: +}
+  - {t: '=', s: +, type: held}
   - F4
   - F5
   - {t: '$$mdi:transfer$$', type: trans}
@@ -101,7 +101,7 @@ layers:
   ALLOW:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+$$mdi:arrow-left-bold$$
-  - Sft+Gui+$$mdi:arrow-right-bold$$
+  - {t: 'Sft+Gui+$$mdi:arrow-right-bold$$', type: held}
   - $$mdi:pan-up$$
   - Ctl+S
   - {t: '$$mdi:keyboard-return$$', type: enter}
