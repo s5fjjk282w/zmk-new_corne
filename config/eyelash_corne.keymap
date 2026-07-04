@@ -83,10 +83,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC       &kp Q  &lt 2 W  &lt 1 E           &kp R           &kp T                                        &to 4         &kp Y          &kp U        &kp I      &kp O    &kp P      &none
-&kp TAB       &kp A  &kp S    &kp D             &kp H           &kp G                                 &to 2  &to 0  &to 1  &kp F          &kp J        &kp K      &kp L    &kp TILDE  &none
-&kp LEFT_GUI  &kp Z  &kp X    &kp C             &kp B           &kp V              &kp PRINTSCREEN           &to 3         &kp N          &kp M        &kp COMMA  &kp DOT  &kp SLASH  &none
-                              &mt LCTRL DELETE  &kp LEFT_SHIFT  &mt LEFT_ALT CAPS                                          &kp BACKSPACE  &lt 0 ENTER  &kp SPACE
+&kp TAB         &kp Q  &lt 2 W  &lt 1 E       &kp R     &kp T                                 &to 4         &kp Y          &kp U        &kp I      &kp O    &kp P      &kp ESC
+&kp LEFT_SHIFT  &kp A  &kp S    &kp D         &kp H     &kp G                          &to 2  &to 0  &to 1  &kp F          &kp J        &kp K      &kp L    &kp TILDE  &kp LEFT_ALT
+&kp LCTRL       &kp Z  &kp X    &kp C         &kp B     &kp V       &kp PRINTSCREEN           &to 3         &kp N          &kp M        &kp COMMA  &kp DOT  &kp SLASH  &kp LEFT_GUI
+                                &lt 3 DELETE  &lt 2 F2  &lt 1 CAPS                                          &kp BACKSPACE  &lt 0 ENTER  &kp SPACE
             >;
 
             sensor-bindings =
@@ -98,8 +98,8 @@
             display-name = "NUMBER,FN";
             bindings = <
 &trans  &kp KP_NUMLOCK  &kp F2  &kp EQUAL  &kp F4   &kp F5                        &trans          &kp EQUAL  &kp N7  &kp N8        &kp NUMBER_9  &kp SLASH      &kp MINUS
-&trans  &none           &kp F6  &kp F9     &kp F10  &none                 &trans  &trans  &trans  &kp N0     &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK   &kp PLUS
-&trans  &none           &none   &kp F7     &kp F8   &kp F1  &kp C_MUTE            &trans          &kp DOT    &kp N1  &kp N2        &kp N3        &kp SEMICOLON  &kp COLON
+&trans  &kp LEFT_ALT    &kp F6  &kp F9     &kp F10  &none                 &trans  &trans  &trans  &kp N0     &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK   &kp PLUS
+&trans  &kp LEFT_GUI    &none   &kp F7     &kp F8   &kp F1  &kp C_MUTE            &trans          &kp DOT    &kp N1  &kp N2        &kp N3        &kp SEMICOLON  &kp COLON
                                 &trans     &trans   &trans                                        &trans     &trans  &trans
             >;
 
