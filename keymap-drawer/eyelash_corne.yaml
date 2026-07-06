@@ -3,10 +3,10 @@ layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
   - Q
-  - {t: W, h: ALLOW}
-  - {t: E, h: 'NUMBER,FN'}
+  - W
+  - E
   - R
-  - T
+  - {t: T, h: 'NUMBER,FN'}
   - {t: Bluetooth, h: toggle}
   - Y
   - U
@@ -19,7 +19,7 @@ layers:
   - S
   - D
   - H
-  - G
+  - {t: G, h: ALLOW}
   - {t: ALLOW, h: toggle}
   - {t: QWERTY, h: toggle}
   - {t: 'NUMBER,FN', h: toggle}
@@ -53,9 +53,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP NUMLOCK
   - F2
-  - {t: '=', s: +, type: held}
+  - {t: '=', s: +}
   - F4
-  - F5
+  - {t: F5, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '7', s: '&'}
@@ -101,7 +101,7 @@ layers:
   ALLOW:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+$$mdi:arrow-left-bold$$
-  - {t: 'Sft+Gui+$$mdi:arrow-right-bold$$', type: held}
+  - Sft+Gui+$$mdi:arrow-right-bold$$
   - $$mdi:pan-up$$
   - Ctl+S
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -117,7 +117,7 @@ layers:
   - $$mdi:pan-left$$
   - $$mdi:pan-down$$
   - $$mdi:pan-right$$
-  - Ctl+F4
+  - {t: Ctl+F4, type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
