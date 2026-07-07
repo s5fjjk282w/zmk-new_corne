@@ -7,7 +7,7 @@ layers:
   - E
   - R
   - T
-  - {t: Bluetooth, h: toggle}
+  - {t: QWERTY, h: toggle}
   - Y
   - U
   - I
@@ -21,13 +21,13 @@ layers:
   - H
   - {t: G, h: 'NUMBER,FN'}
   - {t: ALLOW, h: toggle}
-  - {t: QWERTY, h: toggle}
+  - {t: Bluetooth, h: toggle}
   - {t: 'NUMBER,FN', h: toggle}
   - F
   - J
   - K
   - L
-  - '~'
+  - {t: '-', s: _}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -41,7 +41,7 @@ layers:
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
-  - {t: /, s: '?'}
+  - '~'
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: '$$mdi:apple-keyboard-shift$$'}
