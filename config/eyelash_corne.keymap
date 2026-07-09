@@ -97,10 +97,10 @@
         lower_layer {
             display-name = "NUMBER,FN";
             bindings = <
-&trans  &kp KP_NUMLOCK  &kp F2  &kp EQUAL  &kp F4   &kp F5                        &trans          &kp EQUAL  &kp N7  &kp N8        &kp NUMBER_9  &kp SLASH      &kp MINUS
-&trans  &kp LEFT_ALT    &kp F6  &kp F9     &kp F10  &none                 &trans  &trans  &trans  &kp N0     &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK   &kp PLUS
-&trans  &kp LEFT_GUI    &none   &kp F7     &kp F8   &kp F1  &kp C_MUTE            &trans          &kp DOT    &kp N1  &kp N2        &kp N3        &kp SEMICOLON  &kp COLON
-                                &trans     &trans   &trans                                        &trans     &trans  &trans
+&trans  &kp KP_NUMLOCK  &kp F2  &kp EQUAL  &kp F4   &kp F5                        &trans          &none      &kp N7  &kp N8        &kp NUMBER_9  &kp SLASH      &kp MINUS
+&trans  &kp LEFT_ALT    &kp F6  &kp F9     &kp F10  &none                 &trans  &trans  &trans  &none      &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK   &kp PLUS
+&trans  &kp LEFT_GUI    &none   &kp F7     &kp F8   &kp F1  &kp C_MUTE            &trans          &none      &kp N1  &kp N2        &kp N3        &kp SEMICOLON  &none
+                                &trans     &trans   &trans                                        &kp EQUAL  &kp N0  &kp PERIOD
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
@@ -109,10 +109,10 @@
         raise_layer {
             display-name = "ALLOW";
             bindings = <
-&trans  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &msc SCRL_UP    &kp LC(S)        &kp ENTER                    &trans          &kp LG(TAB)  &kp LA(LEFT)  &kp UP_ARROW  &kp LA(UP_ARROW)  &none  &trans
-&trans  &kp LEFT_ALT      &msc SCRL_LEFT     &msc SCRL_DOWN  &msc SCRL_RIGHT  &kp LC(F4)           &trans  &trans  &trans  &none        &kp LEFT      &kp DOWN      &kp RIGHT         &none  &trans
-&trans  &kp LEFT_GUI      &kp LC(X)          &kp LC(C)       &kp LC(V)        &none       &none            &trans          &none        &kp HOME      &kp K_APP     &kp END           &none  &trans
-                                             &trans          &trans           &trans                                       &trans       &trans        &trans
+&trans  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &kp PAGE_UP    &kp LC(S)        &kp ENTER                    &trans          &kp LG(TAB)  &kp LA(LEFT)  &kp UP_ARROW  &kp LA(UP_ARROW)  &none  &trans
+&trans  &kp LEFT_ALT      &msc SCRL_LEFT     &kp PAGE_DOWN  &msc SCRL_RIGHT  &kp LC(F4)           &trans  &trans  &trans  &none        &kp LEFT      &kp DOWN      &kp RIGHT         &none  &trans
+&trans  &kp LEFT_GUI      &kp LC(X)          &kp LC(C)      &kp LC(V)        &none       &none            &trans          &none        &kp HOME      &kp K_APP     &kp END           &none  &trans
+                                             &trans         &trans           &trans                                       &trans       &trans        &trans
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
