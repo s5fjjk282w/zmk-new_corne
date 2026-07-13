@@ -47,7 +47,7 @@ layers:
   - {t: F2, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:keyboard-return$$', h: QWERTY}
+  - {t: '$$mdi:keyboard-return$$', h: ALLOW}
   - {t: ., h: '$$mdi:apple-keyboard-option$$'}
   NUMBER,FN:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -145,7 +145,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
