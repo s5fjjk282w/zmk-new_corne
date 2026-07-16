@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -13,13 +13,13 @@ layers:
   - I
   - O
   - P
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
-  - {t: H, h: ALLOW}
-  - {t: G, h: 'NUMBER,FN'}
+  - H
+  - G
   - {t: ALLOW, h: toggle}
   - {t: Bluetooth, h: toggle}
   - {t: 'NUMBER,FN', h: toggle}
@@ -27,7 +27,7 @@ layers:
   - J
   - K
   - L
-  - $$mdi:arrow-up-bold$$
+  - {t: '-', s: _}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -40,15 +40,15 @@ layers:
   - N
   - M
   - {t: ',', s: <}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
+  - .
+  - '~'
+  - {t: '$$mdi:apple-keyboard-command$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
-  - {t: F2, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F2, h: ALLOW}
   - {t: '$$mdi:apple-keyboard-caps$$', h: 'NUMBER,FN'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
-  - {t: ., h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-option$$
   NUMBER,FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP NUMLOCK
@@ -68,7 +68,7 @@ layers:
   - F6
   - F9
   - F10
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -91,10 +91,10 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: ;, s: ':'}
-  - '~'
+  - ':'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -116,7 +116,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - $$mdi:pan-left$$
   - PgDn
-  - {t: '$$mdi:pan-right$$', type: held}
+  - $$mdi:pan-right$$
   - Ctl+F4
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,7 +142,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
