@@ -33,8 +33,8 @@ layers:
   - Z
   - X
   - C
-  - B
   - V
+  - B
   - PRINTSCREEN
   - {t: Symbol, h: toggle}
   - N
@@ -149,11 +149,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
-  - Ctl+E
-  - Sft+$$mdi:arrow-up-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+$$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - Ctl+I
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - '?'
   - {t: '[', s: '{'}
@@ -163,10 +163,10 @@ layers:
   - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+I
   - Alt+J
   - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
