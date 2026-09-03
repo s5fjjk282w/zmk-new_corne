@@ -83,9 +83,9 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R     &kp T                                 &to 0         &kp Y          &kp U        &kp I         &kp O       &kp P      &kp ESC
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp H     &kp G                          &to 2  &to 4  &to 1  &kp F          &kp J        &kp K         &kp L       &kp MINUS  &kp SPACE
-&kp LCTRL       &kp Z  &kp X  &kp C         &kp V     &kp B       &kp PRINTSCREEN           &to 3         &kp N          &kp M        &kp COMMA     &kp PERIOD  &kp TILDE  &mt LEFT_SHIFT LEFT_GUI
+&kp TAB         &kp Q  &kp W  &kp E         &kp R     &kp T                                 &none         &kp Y          &kp U        &kp I         &kp O       &kp P      &kp ESC
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp H     &kp G                          &to 0  &to 4  &none  &kp F          &kp J        &kp K         &kp L       &kp MINUS  &kp SPACE
+&kp LCTRL       &kp Z  &kp X  &kp C         &kp V     &kp B       &kp PRINTSCREEN           &to 5         &kp N          &kp M        &kp COMMA     &kp PERIOD  &kp TILDE  &mt LEFT_SHIFT LEFT_GUI
                               &lt 3 DELETE  &lt 2 F2  &lt 1 CAPS                                          &kp BACKSPACE  &lt 2 ENTER  &kp LEFT_ALT
             >;
 
@@ -136,6 +136,15 @@
 &none  &none  &none  &none  &none  &none           &trans  &trans  &trans  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &none            &none            &none         &bt BT_CLR
 &none  &none  &none  &none  &none  &none  &none            &trans          &bootloader     &rgb_ug RGB_EFF  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &none         &bt BT_CLR_ALL
                      &none  &none  &none                                   &none           &none            &none
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans                                    &trans  &trans  &trans
             >;
         };
     };
