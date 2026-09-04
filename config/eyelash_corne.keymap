@@ -132,10 +132,10 @@
 
         mouth {
             bindings = <
-&none  &none  &none  &none           &none           &none                   &none         &none           &none           &mmv MOVE_UP    &none            &none  &none
-&none  &none  &none  &mmv MOVE_Y(0)  &mmv MOVE_X(0)  &none            &none  &none  &none  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
-&none  &none  &none  &none           &none           &none   &none           &none         &msc SCRL_DOWN  &none           &none           &none            &none  &none
-                     &trans          &trans          &trans                                &trans          &trans          &trans
+&none  &none  &none     &none           &none           &none                   &trans          &kp ENTER       &kp ESC         &mmv MOVE_UP    &none            &none  &none
+&none  &none  &none     &mmv MOVE_Y(0)  &mmv MOVE_X(0)  &none           &trans  &trans  &trans  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
+&none  &none  &mkp MB3  &mkp MB2        &mkp MB1        &none  &none            &trans          &msc SCRL_DOWN  &none           &none           &none            &none  &none
+                        &none           &none           &none                                   &kp LCTRL       &none           &none
             >;
         };
 
