@@ -130,12 +130,12 @@
             sensor-bindings = <&rsr_vol &rsr_trans>;
         };
 
-        layer_5 {
+        mouth {
             bindings = <
-&none  &none  &none  &none           &none           &none                   &none         &none   &none           &mmv MOVE_UP    &none            &none  &none
-&none  &none  &none  &mmv MOVE_Y(0)  &mmv MOVE_X(0)  &none            &none  &none  &none  &none   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
-&none  &none  &none  &none           &none           &none   &none           &none         &none   &none           &none           &none            &none  &none
-                     &trans          &trans          &trans                                &trans  &trans          &trans
+&none  &none  &none  &none           &none           &none                   &none         &none           &none           &mmv MOVE_UP    &none            &none  &none
+&none  &none  &none  &mmv MOVE_Y(0)  &mmv MOVE_X(0)  &none            &none  &none  &none  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
+&none  &none  &none  &none           &none           &none   &none           &none         &msc SCRL_DOWN  &none           &none           &none            &none  &none
+                     &trans          &trans          &trans                                &trans          &trans          &trans
             >;
         };
 
