@@ -213,8 +213,8 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '&mmv MOVE_Y(0)'
-  - '&mmv MOVE_X(0)'
+  - '&mmv MOVE_Y(-600)'
+  - '&mmv MOVE_X(-600)'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
