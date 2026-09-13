@@ -173,7 +173,7 @@ layers:
   - '!'
   - (
   - )
-  - _
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $
   - '"'
   - {t: '$$mdi:transfer$$', type: trans}
