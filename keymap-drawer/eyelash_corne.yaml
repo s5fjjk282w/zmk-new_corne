@@ -151,8 +151,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+E
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - Ctl+$$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - Sft+$$mdi:keyboard-space$$
+  - Ctl+X
   - Ctl+I
   - {t: '$$mdi:transfer$$', type: trans}
   - '?'
