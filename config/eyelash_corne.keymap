@@ -75,6 +75,18 @@
             bindings = <&soft_off>;
             key-positions = <1 15 29>;
         };
+
+        full {
+            bindings = <&kp F13>;
+            key-positions = <16 18>;
+            layers = <0>;
+        };
+
+        half {
+            bindings = <&kp F14>;
+            key-positions = <16 17>;
+            layers = <0>;
+        };
     };
 
     keymap {
@@ -132,7 +144,7 @@
 
         mouth {
             bindings = <
-&none           &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &none     &none     &none                   &trans          &kp LC(F4)      &none           &mmv MOVE_UP    &none            &none  &kp ESCAPE
+&none           &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &none     &none     &none                   &trans          &kp LA(F4)      &none           &mmv MOVE_UP    &none            &none  &kp ESCAPE
 &kp LEFT_SHIFT  &none             &none              &none     &none     &none           &trans  &trans  &trans  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none  &none
 &none           &none             &mkp MB3           &mkp MB2  &mkp MB1  &none  &none            &trans          &msc SCRL_DOWN  &mkp MB1        &mkp MB2        &mkp MB3         &none  &none
                                                      &none     &none     &none                                   &kp LCTRL       &kp ENTER       &none
