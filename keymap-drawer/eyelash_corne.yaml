@@ -299,7 +299,7 @@ combos:
   k: '&soft_off'
 - p: [16, 18]
   k: F13
-  l: [QWERTY]
+  l: [QWERTY, ALLOW, 'NUMBER,FN', Symbol]
 - p: [16, 17]
   k: F14
-  l: [QWERTY]
+  l: [QWERTY, 'NUMBER,FN', ALLOW, Symbol]
