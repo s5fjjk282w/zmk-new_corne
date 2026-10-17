@@ -45,10 +45,10 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: ALLOW}
-  - {t: INTERNATIONAL 4, h: 'NUMBER,FN'}
+  - {t: F13, h: 'NUMBER,FN'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
-  - {t: INTERNATIONAL 5, h: mouth}
+  - {t: F14, h: mouth}
   NUMBER,FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP NUMLOCK
