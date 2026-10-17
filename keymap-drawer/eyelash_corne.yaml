@@ -45,10 +45,10 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: ALLOW}
-  - {t: F13, h: 'NUMBER,FN'}
+  - {t: F9, h: 'NUMBER,FN'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
-  - {t: F14, h: mouth}
+  - {t: F10, h: mouth}
   NUMBER,FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - KP NUMLOCK
@@ -66,8 +66,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - F6
-  - F9
-  - F10
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
