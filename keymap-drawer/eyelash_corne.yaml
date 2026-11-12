@@ -45,10 +45,10 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
   - {t: F2, h: ALLOW}
-  - {t: F14, h: 'NUMBER,FN'}
+  - {t: F6, h: 'NUMBER,FN'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
-  - {t: F13, h: mouth}
+  - {t: F9, h: mouth}
   NUMBER,FN:
   - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+$$mdi:arrow-left-bold$$
