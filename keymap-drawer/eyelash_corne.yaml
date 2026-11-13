@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Q
   - W
   - E
@@ -13,7 +13,7 @@ layers:
   - I
   - O
   - P
-  - $$mdi:keyboard-space$$
+  - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-tab$$
   - A
   - S
@@ -28,7 +28,7 @@ layers:
   - K
   - L
   - {t: '-', s: _}
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -42,10 +42,10 @@ layers:
   - {t: ',', s: <}
   - .
   - '~'
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
-  - {t: F2, h: ALLOW}
-  - {t: F6, h: 'NUMBER,FN'}
+  - $$mdi:apple-keyboard-shift$$
+  - {t: F2, h: 'NUMBER,FN'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
   - {t: F9, h: mouth}
@@ -54,8 +54,8 @@ layers:
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - Sft+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - F4
-  - F5
+  - Ctl+S
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '7', s: '&'}
@@ -66,9 +66,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F4
+  - F5
+  - Ctl+F4
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -102,9 +102,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+$$mdi:keyboard-tab$$
   - Ctl+$$mdi:keyboard-tab$$
-  - $$mdi:pan-up$$
-  - Ctl+S
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - Gui+$$mdi:keyboard-tab$$
   - Alt+$$mdi:arrow-left-bold$$
@@ -114,10 +114,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:pan-left$$
-  - $$mdi:pan-down$$
-  - $$mdi:pan-right$$
-  - Ctl+F4
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -129,9 +129,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-command$$
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
@@ -142,10 +142,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -294,3 +294,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
+combos:
+- p: [16, 17]
+  k: F6
+- p: [16, 18]
+  k: F9
