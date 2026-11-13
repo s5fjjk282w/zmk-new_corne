@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:backspace-reverse-outline$$', h: 'NUMBER,FN'}
   - Q
   - W
   - E
@@ -44,13 +44,13 @@ layers:
   - '~'
   - $$mdi:apple-keyboard-command$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: Symbol}
-  - {t: F2, h: 'NUMBER,FN'}
+  - {t: F2, h: ALLOW}
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: 'NUMBER,FN'}
   NUMBER,FN:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - Sft+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -93,11 +93,11 @@ layers:
   - {t: '-', s: _}
   - {t: ;, s: ':'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   ALLOW:
   - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Sft+$$mdi:keyboard-tab$$
@@ -142,10 +142,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   Symbol:
   - {t: '$$mdi:transfer$$', type: trans}
