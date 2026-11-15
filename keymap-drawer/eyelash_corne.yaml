@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: '$$mdi:backspace-reverse-outline$$', h: 'NUMBER,FN'}
+  - {t: F6, h: 'NUMBER,FN'}
   - Q
   - W
   - E
@@ -48,7 +48,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
-  - {t: '$$mdi:backspace-reverse-outline$$', h: 'NUMBER,FN'}
+  - {t: F9, h: 'NUMBER,FN'}
   NUMBER,FN:
   - {type: held}
   - Sft+Gui+$$mdi:arrow-left-bold$$
@@ -294,8 +294,3 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-combos:
-- p: [16, 17]
-  k: INTERNATIONAL 5
-- p: [16, 18]
-  k: INTERNATIONAL 4
