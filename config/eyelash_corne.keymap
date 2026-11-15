@@ -72,12 +72,12 @@
         compatible = "zmk,combos";
 
         half {
-            bindings = <&kp F6>;
+            bindings = <&kp INTERNATIONAL_5>;
             key-positions = <16 17>;
         };
 
         full {
-            bindings = <&kp F9>;
+            bindings = <&kp INTERNATIONAL_4>;
             key-positions = <16 18>;
         };
     };
