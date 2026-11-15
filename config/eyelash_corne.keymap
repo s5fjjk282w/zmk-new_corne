@@ -102,10 +102,10 @@
         lower_layer {
             display-name = "NUMBER,FN";
             bindings = <
-&trans  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &none   &kp LC(S)  &kp ENTER                             &trans          &kp EQUAL   &kp N7  &kp N8        &kp NUMBER_9  &kp SLASH     &none
-&trans  &kp LEFT_ALT      &none              &kp F4  &kp F5     &kp LC(F4)                    &trans  &trans  &trans  &kp N0      &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &kp PLUS
-&trans  &kp LEFT_GUI      &kp F6             &kp F7  &kp F8     &kp F1      &kp KP_NUMLOCK            &trans          &kp PERIOD  &kp N1  &kp N2        &kp N3        &kp MINUS     &kp SEMICOLON
-                                             &trans  &trans     &trans                                                &trans      &trans  &trans
+&trans  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &none   &kp LC(S)  &kp ENTER                             &trans          &kp EQUAL  &kp N7  &kp N8        &kp NUMBER_9  &kp SLASH     &none
+&trans  &kp LEFT_ALT      &none              &kp F4  &kp F5     &kp LC(F4)                    &trans  &trans  &trans  &kp MINUS  &kp N4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK  &none
+&trans  &kp LEFT_GUI      &kp F6             &kp F7  &kp F8     &kp F1      &kp KP_NUMLOCK            &trans          &kp PLUS   &kp N1  &kp N2        &kp N3        &kp COLON     &kp SEMICOLON
+                                             &trans  &trans     &trans                                                &trans     &kp N0  &kp PERIOD
             >;
 
             sensor-bindings = <&rsr_vol &rsr_trans>;
