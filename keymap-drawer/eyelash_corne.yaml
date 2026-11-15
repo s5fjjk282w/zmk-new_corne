@@ -296,6 +296,6 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
 - p: [16, 17]
-  k: F6
+  k: INTERNATIONAL 5
 - p: [16, 18]
-  k: F9
+  k: INTERNATIONAL 4
