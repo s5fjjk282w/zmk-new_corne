@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - {t: F6, h: 'NUMBER,FN'}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -14,7 +14,7 @@ layers:
   - O
   - P
   - $$mdi:keyboard-esc$$
-  - $$mdi:keyboard-tab$$
+  - {t: F6, h: 'NUMBER,FN'}
   - A
   - S
   - D
@@ -50,7 +50,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: ALLOW}
   - {t: F9, h: 'NUMBER,FN'}
   NUMBER,FN:
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - Sft+Gui+$$mdi:arrow-left-bold$$
   - Sft+Gui+$$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -63,7 +63,7 @@ layers:
   - '9'
   - {t: /, s: '?'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
