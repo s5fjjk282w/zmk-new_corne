@@ -115,8 +115,8 @@
             display-name = "Symbol";
             bindings = <
 &trans  &none      &none      &kp LS(SPACE)  &kp LC(X)  &kp LC(I)                       &trans          &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp AMPERSAND  &kp SQT
-&trans  &none      &none      &kp LA(I)      &kp LA(J)  &kp B                   &trans  &trans  &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none        &kp DLLR       &kp DOUBLE_QUOTES
-&trans  &kp LC(N)  &kp LC(R)  &kp LS(LC(R))  &kp LC(F)  &kp LS(LC(N))  &none            &trans          &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT3       &kp NON_US_BACKSLASH
+&trans  &none      &none      &kp LA(I)      &kp LA(J)  &kp B                   &trans  &trans  &trans  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &kp DLLR       &kp DOUBLE_QUOTES
+&trans  &kp LC(N)  &kp LC(R)  &kp LS(LC(R))  &kp LC(F)  &kp LS(LC(N))  &none            &trans          &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &none        &kp INT3       &kp NON_US_BACKSLASH
                               &trans         &trans     &trans                                          &trans           &trans                &trans
             >;
 
